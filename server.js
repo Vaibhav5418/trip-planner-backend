@@ -13,7 +13,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/tripPlannerDB";
+const MONGODB_URI = process.env.MONGODB_URI //|| "mongodb://127.0.0.1:27017/tripPlannerDB";
 const SERVER_START_TIME = new Date();
 
 // Middleware setup
